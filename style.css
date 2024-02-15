@@ -1,8 +1,33 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+body {
+  background-color: #DC143C;
+  color: #FFF;
+}
+
+h1 {
+  color: #8B0000;
+}
+
+p {
+  color: #A52A2A;
+}
+
+a {
+  color: #B22222;
+}
+
+button {
+  background-color: #8B0000;
+  color: #FFF;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A52A2A;
+}
